@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o valor"
+        android:layout_margin="20dp"
+        android:inputType="number|numberDecimal"
+        android:id="@+id/editValor"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite a taxa"
+        android:layout_margin="20dp"
+        android:inputType="number|numberDecimal"
+        android:id="@+id/editTaxa"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clicar"
+        android:layout_margin="20dp"
+        android:id="@+id/buttonClicar"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textoResultado"
+        android:textSize="50sp"
+        android:text="R$"
+        android:gravity="center"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:id="@+id/nomemeu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PedroRocha Nº21" />
+</LinearLayout>
